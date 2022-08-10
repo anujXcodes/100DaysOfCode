@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Css properties</title>
+    <style>
+      a {
+        color: rgb(0, 113, 133);
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: rgb(222, 170, 73);
+      }
+
+      h1,
+      h2 {
+        font-weight: bold;
+      }
+
+      h2 {
+        color: rgb(0, 118, 0);
+      }
+
+      h3 {
+        font-weight: normal;
+      }
+
+      /* Yellow Button */
+
+      .yellow-button {
+        background-color: rgb(255, 216, 20);
+        height: 40px;
+        width: 130px;
+        border: none;
+        font-weight: bold;
+        border-radius: 20px;
+        margin-right: 20px;
+        cursor: pointer;
+        transition: background-color 0.2s, opacity 0.2s;
+      }
+
+      .yellow-button:hover{
+        background-color: rgb(223, 223, 17);
+      }
+
+      .yellow-button:active{
+        opacity: 0.5;
+      }
+
+      /* Orange Button */
+
+      .orange-button {
+        background-color: rgb(225, 164, 28);
+        height: 40px;
+        width: 130px;
+        border: none;
+        font-weight: bold;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: background-color 0.2s, opacity 0.2s;
+      }
+
+      .orange-button:hover{
+        background-color: rgb(208, 141, 16);
+      }
+
+      .orange-button:active{
+        opacity:0.4
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section>
+        <a href="www.amazon.com">Back to Amazon </a>
+
+        <h1>Nike Black Running Shoes</h1>
+
+        <h2>$39 - in stocks.</h2>
+
+        <h3>Free delivery tomorrow.</h3>
+
+        <button class="yellow-button">Add to Cart</button>
+        <button class="orange-button">Buy now</button>
+      </section>
+    </main>
+  </body>
+</html>
