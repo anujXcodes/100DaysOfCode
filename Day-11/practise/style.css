@@ -1,0 +1,48 @@
+/* Styling Problem 1 */
+
+.two-columns {
+  display: grid;
+  grid-template-columns: 200px 75px;
+  margin-bottom: 20px;
+}
+
+.two-columns_blue {
+  background-color: rgb(93, 93, 185);
+}
+
+.two-columns_pink {
+  background-color: pink;
+}
+
+/* Styling Problem 2 */
+
+.three-columns {
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+  margin-bottom: 20px;
+}
+
+.three-columns_blue {
+  background-color: rgb(93, 93, 185);
+}
+
+.three-columns_pink {
+  background-color: pink;
+}
+
+.three-columns_red {
+  background-color: rgb(198, 66, 66);
+}
+
+/* Styling Problem 4 */
+
+.four-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 20px;
+}
+
+.four-columns_blue {
+  background-color: rgb(93, 93, 185);
+}
