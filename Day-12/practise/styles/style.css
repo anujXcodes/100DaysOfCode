@@ -1,0 +1,68 @@
+/* Styling problem 1 */
+
+.problem1 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.problem1-blue {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.problem1-pink {
+  background-color: lightpink;
+  width: 75px;
+}
+
+/* Styling problem 2 */
+
+.problem1 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.problem1-blue {
+  background-color: lightblue;
+  width: 50px;
+}
+
+.problem1-pink_middle {
+  background-color: lightpink;
+  flex: 1;
+}
+
+.problem1-pink {
+  background-color: lightpink;
+  width: 75px;
+}
+
+/* Styling problem 3 */
+
+.problem3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.problem3-blue {
+  background-color: lightblue;
+}
+
+/* Styling problem 4 */
+
+.problem4{
+  display: flex;
+  height: 50px;
+  border: 1px solid black;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.problem4-div{
+  background-color: lightpink;
+}
