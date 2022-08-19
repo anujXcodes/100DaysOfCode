@@ -1,0 +1,54 @@
+/* Styling problem 13a */
+.problem1 {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.problem1-pink {
+  background-color: lightpink;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.problem1-pink_item1 {
+  background-color: #000;
+  color: #fff;
+}
+
+.problem1-blue {
+  background-color: lightblue;
+  width: 200px;
+}
+
+/* Styling problem 13b */
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.column1 {
+  background-color: lightpink;
+  width: 100px;
+}
+
+.column2 {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row2-item {
+  background-color: black;
+  color: white;
+}
