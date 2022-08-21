@@ -1,0 +1,212 @@
+/* Problem 1 */
+/* body {
+  height: 3000px;
+}
+
+.sidebar {
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+} */
+
+/* Problem 2 */
+/* body {
+  height: 3000px;
+}
+
+.sidebar {
+  position: fixed;
+  width: 100px;
+  background-color: green;
+  top: 0;
+  right: 0;
+  color: white;
+  bottom: 0;
+} */
+
+/* Problem 3 */
+/* body {
+  height: 3000px;
+}
+
+.right-sidebar {
+  background-color: green;
+  color: white;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: white;
+  width: 300px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+}
+
+.modal-title {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.modal-content {
+  font-family: Arial;
+  margin-bottom: 12px;
+} */
+
+/* Problem 4 */
+/* body {
+  height: 3000px;
+}
+
+.sidebar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.pic-cat {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.name {
+  font-weight: bold;
+  font-family: Arial;
+}
+
+.right-section {
+}
+
+.common {
+  font-weight: bold;
+  padding: 8px 12px;
+}
+
+.blue {
+  background-color: rgb(24, 119, 242);
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 6px;
+  margin-right: 3px;
+}
+
+.gray {
+  background-color: rgb(230, 230, 230);
+  border: none;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 6px;
+} */
+
+/* Problem 4f */
+body {
+  height: 3000px;
+}
+
+div {
+  font-family: Arial;
+}
+
+.sidebar {
+  background-color: rgb(33, 33, 33);
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.imag {
+  margin-top: 16px;
+}
+
+.pic {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+.sidebar2 {
+  background-color: rgb(55, 55, 55);
+  position: fixed;
+  left: 70px;
+  top: 0;
+  bottom: 0;
+  width: 150px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: ;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.name {
+  color: white;
+  font-size: 14px;
+}
+
+.create-new {
+  color: rgb(150, 150, 150);
+  font-size: 25px;
+}
+
+.channel {
+  color: rgb(150, 150, 150);
+  margin-bottom: 16px;
+}
