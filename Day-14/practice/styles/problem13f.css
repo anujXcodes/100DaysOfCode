@@ -28,8 +28,7 @@ div {
 .tweet-header {
   display: flex;
   flex-direction: row;
-  margin-bottom: 5px;
-}
+  margin-bottom: 5px;}
 
 .tweet-author {
   font-weight: bold;
