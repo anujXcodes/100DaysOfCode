@@ -137,8 +137,6 @@ body {
 /* ---- Starts ---- */
 main {
   width: 566px;
-  padding: 0 12px;
-
   position: absolute;
   left: 402px;
   top: 0;
@@ -147,6 +145,7 @@ main {
 }
 
 .top-part {
+  padding: 0 12px;
   height: 55px;
 
   display: flex;
@@ -174,13 +173,13 @@ main {
 /* My tweet section */
 
 .my-tweet {
-  background-color: lightpink;
+  padding: 4px 12px;
   height: 108px;
 
   display: grid;
-  grid-template-columns:50px 1fr ;
-
-  padding: 4px 0;
+  grid-template-columns: 50px 1fr;
+  column-gap: 16px;
+  border-bottom: 1px solid #999;
 }
 
 .my-tweet_profile {
@@ -189,11 +188,58 @@ main {
   object-fit: cover;
   object-position: center;
   border-radius: 50%;
-
 }
 
+/* to tweet section */
+
 .my-tweet_info {
-  background-color: lightseagreen;
+}
+
+.to-tweet {
+  padding: 14px 0;
+  font-size: 20px;
+  color: rgb(174, 174, 174);
+}
+
+.tweet-help {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 16px;
+}
+
+.tweet-icons {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tweet-icons_help {
+  height: 20px;
+  width: 20px;
+  object-fit: cover;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.tweet-icons_help:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.my-tweet_button {
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(26, 140, 246);
+
+  padding: 10px 16px;
+  border-radius: 30px;
+}
+
+.my-tweet_button:hover {
+  cursor: pointer;
 }
 
 /* ---- Ends ---- */
