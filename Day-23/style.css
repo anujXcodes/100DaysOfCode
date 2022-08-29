@@ -4,6 +4,7 @@
 }
 
 body {
+  position: relative;
   font-family: Arial, Helvetica, sans-serif;
   font-family: 16px;
   height: 2000px;
@@ -12,17 +13,17 @@ body {
 /* Styling sidebar */
 /* ---- Start ---- */
 .sidebar {
-  position: fixed;
-  width: 200px;
-  height: 1000px;
-  margin-left: 200px;
+  width: 234px;
+  height: auto;
+  margin-left: 168px;
+
+  /* position: fixed; */
 }
 
 .sidebar-image {
   height: 28px;
   width: 28px;
   padding-left: 15px;
-
 }
 
 .sidebar-components {
@@ -45,9 +46,10 @@ body {
   padding: 8px 16px;
 }
 
-.components-detail div{
+.components-detail div {
   flex: 1;
   margin: 10px;
+  font-size: 18px;
 }
 
 .components-detail:hover {
@@ -56,11 +58,11 @@ body {
 }
 
 .components-icon {
-  height: 26px;
-  width: 26px;
+  height: 30px;
+  width: 30px;
 }
 
-.tweet-button{
+.tweet-button {
   color: white;
   background-color: rgb(26, 140, 246);
 
@@ -71,10 +73,134 @@ body {
   border-radius: 30px;
   padding: 16px 32px;
   margin-top: 6px;
-
 }
 
-.tweet-button:hover{
+.tweet-button:hover {
   cursor: pointer;
   background-color: rgb(26, 140, 199);
 }
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 50px;
+  padding: 12px;
+  border-radius: 40px;
+}
+
+.profile:hover {
+  background-color: lightgray;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-info img {
+  height: 45px;
+  width: 45px;
+  object-fit: cover;
+  border-radius: 50%;
+
+  margin-right: 6px;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.username {
+  color: #999;
+}
+
+.profile img:hover {
+  background: gray;
+}
+
+.more {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.more:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+/* ---- ends ---- */
+
+/* Main Tweet Page starts here */
+/* ---- Starts ---- */
+main {
+  width: 566px;
+  padding: 0 12px;
+
+  position: absolute;
+  left: 402px;
+  top: 0;
+  bottom: 0;
+  border: 1px solid #999;
+}
+
+.top-part {
+  height: 55px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-heading {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.top-part_icon {
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.top-part_icon:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+/* My tweet section */
+
+.my-tweet {
+  background-color: lightpink;
+  height: 108px;
+
+  display: grid;
+  grid-template-columns:50px 1fr ;
+
+  padding: 4px 0;
+}
+
+.my-tweet_profile {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+
+}
+
+.my-tweet_info {
+  background-color: lightseagreen;
+}
+
+/* ---- Ends ---- */
+
+/* Aside part */
+/* ---- Starts ---- */
+/* aside {
+  background-color: lightpink;
+  width: 566px;
+} */
