@@ -12,9 +12,10 @@ body {
 /* Styling sidebar */
 /* ---- Start ---- */
 .sidebar {
+  position: fixed;
   width: 200px;
   height: 1000px;
-  background-color: lightblue;
+  margin-left: 200px;
 }
 
 .sidebar-image {
@@ -58,5 +59,22 @@ body {
   height: 26px;
   width: 26px;
 }
-.profile-icon {
+
+.tweet-button{
+  color: white;
+  background-color: rgb(26, 140, 246);
+
+  font-size: 16px;
+  font-weight: bold;
+
+  border: none;
+  border-radius: 30px;
+  padding: 16px 32px;
+  margin-top: 6px;
+
+}
+
+.tweet-button:hover{
+  cursor: pointer;
+  background-color: rgb(26, 140, 199);
 }
