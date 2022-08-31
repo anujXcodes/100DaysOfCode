@@ -16,6 +16,7 @@ body {
   width: 234px;
   height: auto;
   margin-left: 168px;
+  padding-right: 12px;
 
   /* position: fixed; */
 }
@@ -141,7 +142,10 @@ main {
   left: 402px;
   top: 0;
   bottom: 0;
-  border: 1px solid #999;
+  border: 1px solid rgb(200, 200, 200);
+
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .top-part {
@@ -179,7 +183,7 @@ main {
   display: grid;
   grid-template-columns: 50px 1fr;
   column-gap: 16px;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid rgb(201, 201, 201);
 }
 
 .my-tweet_profile {
@@ -236,17 +240,88 @@ main {
 
   padding: 10px 16px;
   border-radius: 30px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .my-tweet_button:hover {
   cursor: pointer;
 }
 
+/* Public tweet section */
+.public-tweet {
+  padding: 12px 12px;
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  column-gap: 16px;
+  border-bottom: 1px solid rgb(201, 201, 201);
+}
+
+.public-profile {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+
+  margin-right: 16px;
+}
+
+.public-tweet_info {
+}
+
+/* mdiv */
+.user-info {
+  font-weight: bold;
+}
+
+.user-name {
+  font-weight: normal;
+  color: rgb(181, 180, 180);
+}
+/* mdiv */
+.tweet-para {
+  margin-top: 5px;
+  line
+  
+}
+
+/* mdiv */
+.tweet-stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tweet-stats_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.tweet-stat_icon {
+  height: 20px;
+  width: 20px;
+  object-fit: cover;
+
+  padding: 5px;
+  margin: 4px;
+}
+
+.tweet-stat_icon:hover {
+  border-radius: 50%;
+  background-color: lightgray;
+}
+.stats {
+  color: #999;
+  font-size: 14px;
+}
+
 /* ---- Ends ---- */
 
 /* Aside part */
 /* ---- Starts ---- */
-/* aside {
+aside {
   background-color: lightpink;
   width: 566px;
-} */
+  border-radius: 1px solid black;
+}

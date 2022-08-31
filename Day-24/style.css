@@ -143,6 +143,9 @@ main {
   top: 0;
   bottom: 0;
   border: 1px solid rgb(200, 200, 200);
+
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .top-part {
@@ -246,7 +249,7 @@ main {
 
 /* Public tweet section */
 .public-tweet {
-  padding: 4px 12px;
+  padding: 12px 12px;
   display: grid;
   grid-template-columns: 50px 1fr;
   column-gap: 16px;
@@ -317,7 +320,8 @@ main {
 
 /* Aside part */
 /* ---- Starts ---- */
-/* aside {
+aside {
   background-color: lightpink;
   width: 566px;
-} */
+  border-radius: 1px solid black;
+}
