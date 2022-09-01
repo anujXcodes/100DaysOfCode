@@ -194,11 +194,6 @@ main {
   border-radius: 50%;
 }
 
-/* to tweet section */
-
-.my-tweet_info {
-}
-
 .to-tweet {
   padding: 14px 0;
   font-size: 20px;
@@ -280,8 +275,6 @@ main {
 /* mdiv */
 .tweet-para {
   margin-top: 5px;
-  line
-  
 }
 
 /* mdiv */
@@ -295,7 +288,6 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .tweet-stat_icon {
@@ -321,7 +313,168 @@ main {
 /* Aside part */
 /* ---- Starts ---- */
 aside {
-  background-color: lightpink;
-  width: 566px;
+  position: absolute;
+  left: 990px;
+  top: 0;
+  bottom: 0;
   border-radius: 1px solid black;
+
+  width: 316px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin-left: 20px;
 }
+
+.search-bar {
+  margin-bottom: 18px;
+}
+
+.twitter-search {
+  padding: 12px;
+  color: rgb(52, 52, 52);
+  background-color: rgb(239, 243, 244);
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+  border: none;
+  border-radius: 30px;
+}
+
+.trending {
+  background-color: rgb(247, 249, 249);
+  border-radius: 10px;
+
+  margin-bottom: 18px;
+}
+
+.heading {
+  font-weight: bold;
+  padding: 12px 16px;
+  font-size: 20px;
+  font-family: arial;
+}
+.heading:hover {
+  cursor: pointer;
+  background-color: rgb(238, 235, 235);
+}
+
+.trend {
+  padding: 12px 16px;
+}
+
+.trend:hover {
+  background-color: rgb(238, 235, 235);
+  cursor: pointer;
+}
+
+.trend-head_media,
+.trend-head {
+  color: #999;
+  font-size: 13px;
+}
+
+.trend-name,
+.trend-name_media {
+  margin-top: 4px;
+  font-weight: bold;
+}
+
+.trend-bottom {
+  font-size: 13px;
+  color: #999;
+  margin-top: 4px;
+}
+
+.blue-link {
+  color: rgb(26, 140, 199);
+}
+
+.trend-media {
+  padding: 12px 16px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.trend-media:hover {
+  cursor: pointer;
+  background-color: rgb(238, 235, 235);
+}
+
+.trend-image {
+  width: 68px;
+  height: 68px;
+  object-fit: cover;
+  border-radius: 10%;
+}
+
+/* Who to follow */
+
+.who-to-follow {
+  background: #f5f8fa;
+  border-radius: 15px;
+}
+
+
+.who-to-follow__block {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e6ecf0;
+}
+
+.who-to-follow__block:last-child {
+  border-bottom: none;
+}
+
+.who-to-follow__author-logo {
+  width: 48px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.who-to-follow__author-slug {
+  color: #657786;
+  font-size: 15px;
+}
+
+.who-to-follow__author-name {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.who-to-follow__content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.who-to-follow__heading {
+  font-size: 19px;
+  font-weight: bold;
+  color: #14171a;
+}
+
+.who-to-follow__button {
+  border: none;
+
+  background-color: rgb(26, 140, 199);
+  color: white;
+  
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 15px;
+  padding: 5px;
+  min-width: 67px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.who-to-follow__button:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
